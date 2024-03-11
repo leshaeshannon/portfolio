@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@font-face {
+    font-family: NewYork;
+    src: url("/assets/NewYork_PERSONAL.otf") format("opentype");
+}
+@font-face {
+    font-family: Magilio;
+    src: url(/assets/MagilioRegular-8Mxvg.otf) format("opentype");
+}
+@font-face {
+    font-family: RooneySans;
+    src: url(/assets/RooneySansRegular.otf) format("opentype");
+}
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fcdae7;
+}
+header .personal_brand {
+    width: 45.454px;
+    height: 44px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+#header-bg {
+    text-align: right;
+}
+/* Navigation styling */
+ nav {
+
+    border-radius: 16px;
+    background-color: #fcdae7;
+    opacity: 0.2;
+    width: 368.83px;
+    height: 40.7px;
+    flex-shrink: 0;
+    position: relative;
+    left: 1520px;
+    top: -30px;
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: #fcdae7;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+nav ul:hover {
+    color: #0A3F45;
+}
+nav ul li {
+    padding: 0 20px;
+    color:#db356d;
+    margin-left: 1px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #db356d;
+  
+}
+
+/* Hero section */
+#hero {
+    background-color: #fcdae7;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h1 {
+    font-size: 200px;
+    color: #fff;
+    font-family: "Magilio";
+    font-weight: 400;
+    font-style: normal;
+}
+#hero h2 {
+    font-size: 36px;
+    color: #0A3f45;
+    font-family:"NewYork";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+    position: relative;
+    top: 30px;
+}
+#hero .portfolio-flower{
+    position: relative;
+    top: 135px;
+    left: 260px;
+    width:  65px;
+    height: 67.349px;
+}
+#hero .pink_vector {
+    position: absolute;
+    z-index: -1;
+}
+#hero .pointer-portfolio{
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+#hero p{
+    font-family: "RooneySans";
+    font-style:  normal;
+    color: #0A3f45;
+    font-size: 18px;
+    font-weight: 340;
+    position: relative;
+    top: -20px;
+   
+}
+/* About section */
+#about {
+    position: relative;
+    top: 400px;
+    background-color: #fcdae7;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+#about .green-rectangle{
+    background-color: #0A3f45;
+    width: 1296px;
+    height:636.3px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+#about .hire-tag{
+    position: relative;
+    right: -1650px;
+    font-family: RooneySans;
+}
+#about .hire-tag svg{
+    position: relative;
+    top: 5.8px;
+}
+#about .dev-intro img{
+position: relative;
+left: 445px;
+top: -235px;
+}
+
+#about .about_img_group {
+    margin-left: 80px;
+    transform: translateY(100px);
+
+}
+#about .pink-about-img {
+    width: 319.587px;
+    height: 479.816px;
+    flex-shrink: 0;
+}
+#about .Leshae-about-img {
+    position: relative;
+    right: 315px;
+
+}
+#about .availability green-noti {
+    position: relative;
+    left: 1600px;
+}
+#about .availability span {
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 1610px;
+    font-family: RooneySans;
+}
+#about .green-rec-white-img {
+    position: relative;
+    top:  -750px;
+    left: 500px;
+}
+#about .dev-intro{
+    position: relative;
+    top: -1160px;
+    right: 30px;
+}
+#about .dev-intro h2{
+    color: #fff;
+    font-family: NewYork;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+#about .dev-intro p{
+    color:#fff;
+    font-family: RooneySans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 340;
+    line-height: normal;
+    text-align: center;
+}
+#about .dev-title{
+    text-align: left;
+    position: relative;
+    top: -1125px;
+    left: 500px;
+}
+#about .dev-title h3{
+    font-family: NewYork;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#about .dev-title p {
+    color: #FFF;
+    font-family: RooneySans;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+}
+#about .about-text-info {
+    color: #FFF;
+    font-family: RooneySans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 340;
+    line-height: normal;
+    text-align: left;
+    position: relative;
+    top: -1100px;
+    left: 500px;
+    width: 567px;
+    height: 139px;
+
+}
+.profile-picture {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px; /* Adjust as necessary */
+    height: 150px; /* Adjust as necessary */
+}
+
+#about div {
+    flex: 1;
+}
+
+#about h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Skills section */
+#skills {
+    position: relative;
+    left: 100px;
+    top: 475px;
+    background-color: #fcdae7;
+    padding: 20px;
+}
+#skills h2 {
+    color: #0A3F45;
+    font-family: NewYork;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#skills p {
+    color: #0A3F45;
+    font-family: RooneySans;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 340;
+    line-height: normal;
+}
+#skills img{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+/* Portfolio section */
+#portfolio {
+    position: relative;
+    top: 600px;
+    background-color: #fcdae7;
+    padding: 20px;
+}
+#portfolio h2{
+    position: relative;
+    top: 255px;
+    text-align: center;
+    color: #FFF;
+    font-family: Magilio;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 35% */
+}
+
+/* Arch Studios section */
+.arch-studios{
+    position: relative;
+    top: 250px;
+}
+.arch-imgs {
+ position: relative;
+ top: 205px;
+}
+.arch-imgs .blk-gradient-rec {
+    position: relative;
+    left: 80px;
+}
+.arch-imgs .arch-sq {
+    position: relative;
+    left: 140px;
+}
+/* Arch Studios Text elements */
+.arch-studios-text {
+    position: relative;
+    left: 850px;
+    top: -300px
+}
+.arch-studios-text h4 {
+    color: #FFF;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.2px;
+}
+.arch-studios-text p {
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: ExtraBold;
+    font-weight: 700;
+    line-height: 155%; /* 46.5px */
+}
+.arch-studios-text-details img{
+    position: relative;
+    left: 850px;
+    top: -255px;
+}
+.arch-studios-text-details p {
+    position: relative;
+    left: 985px;
+    top: -320px;
+    color: #969191;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+.view-pjt-btn a{
+    position: relative;
+    left: 850px;
+    top: -270px;
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+    text-decoration: none;
+}
+
+/* Arch Studios section */
+.Venture-Section{
+    position: relative;
+    top: 250px;
+}
+.Venture-imgs {
+    position: relative;
+    top: 205px;
+}
+.Venture-imgs .blue-gradient-rec {
+    position: relative;
+    left: 1430px;
+}
+.Venture-imgs .vent-sq {
+    position: relative;
+    left: 775px;
+}
+/* Arch Studios Text elements */
+.venture-text {
+    position: relative;
+    left: 130px;
+    top: -300px
+}
+.venture-text h4 {
+    color: #FFF;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.2px;
+}
+.venture-text p {
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: ExtraBold;
+    font-weight: 700;
+    line-height: 155%; /* 46.5px */
+}
+.venture-text-details img{
+    position: relative;
+    left: 130px;
+    top: -255px;
+}
+.venture-text-details p {
+    position: relative;
+    left: 260px;
+    top: -320px;
+    color: #969191;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+.view-pjt-btn-vent a{
+    position: relative;
+    left: 130px;
+    top: -270px;
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+    text-decoration: none;
+}
+.view-pjt-btn-vent svg {
+    position: relative;
+    left: 335px;
+    top: -315px;
+
+}
+
+.devjobs-section{
+    position: relative;
+    top: -230px;
+}
+.devjobs-imgs {
+ position: relative;
+ top: 205px;
+}
+.devjobs-imgs .purp-gradient-vector{
+    position: relative;
+    left: 80px;
+}
+.devjobs-imgs .devjobs-sq {
+    position: relative;
+    left: 140px;
+}
+/* Devjobs Text elements */
+.devjobs-text {
+    position: relative;
+    left: 850px;
+    top: -300px
+}
+.devjobs-text h4 {
+    color: #FFF;
+    font-family: "Karla", sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 140%; /* 42px */
+    letter-spacing: 1.2px;
+}
+.devjobs-text p {
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: ExtraBold;
+    font-weight: 700;
+    line-height: 155%; /* 46.5px */
+}
+.devjobs-text-details img{
+    position: relative;
+    left: 850px;
+    top: -255px;
+}
+.devjobs-text-details p {
+    position: relative;
+    left: 985px;
+    top: -320px;
+    color: #969191;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 33.6px */
+}
+.view-pjt-btn p{
+    position: relative;
+    left: 850px;
+    top: -270px;
+    color: #0A3F45;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+}
+.view-pjt-btn svg {
+    position: relative;
+    left: 1060px;
+    top: -315px;
+}
+/* Contact section */
+#contact {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    top: 400px;
+    background-color: #0A3F45; /* Replace with the actual color */
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    position: relative;
+    right: 300px;
+    width: 33px;
+    height: 33px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust as per your layout */
+    margin: 0 auto;
+    padding: 0 20px; /* Adjust as per your layout */
+}
+.footer-left {
+    font-family:"JetBrains Mono";
+    color: #fcdae7;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+}
+.footer-right{
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    text-decoration: underline;
+    color: #fcdae7;
+}
+.footer-left, .footer-right, .footer-slogan {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-slogan{
+    position: relative;
+    left: 200px;
+    font-size: small;
+    font-family: "JetBrains Mono";
+    color: #fcdae7;
+}
+.slgn {
+    color: #FCDAE7;
+    font-family: "JetBrains Mono";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 600
+    ;
+    line-height: 28px; /* 112% */
+}
+.footer-left a, .footer-right a {
+    text-decoration: none;
+    color: #fcdae7;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.footer-slogan p {
+    margin: 5px 0; /* Adjust as needed */
+}
+
+@media screen and (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-left, .footer-right {
+        margin-bottom: 20px;
+    }
+}
+
+  
+  
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-picture {
+        margin: 0 auto 20px;
+    }
+}
